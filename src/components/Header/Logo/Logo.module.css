@@ -1,0 +1,8 @@
+.logo{
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 6px 12px -6px rgba(24, 39, 75, 0.12), 0 8px 24px -4px rgba(24, 39, 75, 0.08);
+    z-index: 2;
+}

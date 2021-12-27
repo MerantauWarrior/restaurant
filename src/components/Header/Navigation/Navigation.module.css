@@ -1,0 +1,21 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 42px;
+    margin-bottom: 29px;
+    padding: 0 26px;
+}
+.title{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+}
+.empty{
+    width: 17px;
+    background-color: transparent;
+    pointer-events: none;
+}
