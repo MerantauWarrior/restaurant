@@ -6,10 +6,25 @@ const FakeHome = () => {
     <div>
       <ul>
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="/homeninv">homeninv</Link>
         </li>
         <li>
-          <Link to="/menu">Menu</Link>
+          <Link to="/homeinv">homeinv</Link>
+        </li>
+        <li>
+          <Link to="/splitbill">splitbill</Link>
+        </li>
+        <li>
+          <Link to="/menu">menu</Link>
+        </li>
+        <li>
+          <Link to="/paymentsuccessful">paymentsuccessful</Link>
+        </li>
+        <li>
+          <Link to="/paymentunsuccessful">paymentunsuccessful</Link>
+        </li>
+        <li>
+          <Link to="/reciept">reciept</Link>
         </li>
       </ul>
     </div>

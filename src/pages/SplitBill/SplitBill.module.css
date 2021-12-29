@@ -1,0 +1,19 @@
+.split{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 37px;
+    text-align: center;
+}
+.splitTable,
+.splitTitle{
+    margin-bottom: 10px;
+}
+.splitText{
+    margin-bottom: 24px;
+}
+.splitBtns{
+    width: 100%;
+    margin-bottom: 22px;
+}

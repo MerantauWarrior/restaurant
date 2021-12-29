@@ -1,0 +1,33 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 54px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.41px;
+    border-radius: 10px;
+}
+.btn+.btn{
+    margin-top: 15px;
+}
+.dark{
+    background-color: #212121;
+    color: #ffffff;
+}
+.light{
+    background-color: #fff;
+    border: 1px solid #212121;
+    color: #212121;
+}
+.transparent{
+    color: #212121;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.btn+.transparent{
+    margin-top: 7px;
+}

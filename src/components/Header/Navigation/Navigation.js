@@ -1,14 +1,16 @@
 import React from 'react';
-import {useNavigate} from "react-router-dom";
 import styles from './Navigation.module.css';
-import {ReactComponent as Back} from './arrow.svg';
+import Back from "../Back/Back";
+import Logo from "../Logo/Logo";
 
 function Navigation(props) {
-  const navigate = useNavigate();
   return (
     <div className={styles.navigation}>
-      <Back onClick={() => navigate(-1)}/>
-      <div className={styles.title}>{props.title}</div>
+      <Back/>
+      {props.title ?
+        <div className={styles.title}>{props.title}</div>
+        :
+        <Logo/>}
       <div className={styles.empty}/>
     </div>
   );

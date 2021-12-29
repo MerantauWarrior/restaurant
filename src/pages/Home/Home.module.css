@@ -1,0 +1,31 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.homeNinv{
+    margin-top: 39px;
+}
+.homeNinvTable{
+    margin-bottom: 13px;
+}
+.homeNinvTitle{
+    margin-bottom: 12px;
+}
+.homeNinvText{
+    margin-bottom: 25px;
+}
+.homeInv{
+    margin-top: 47px;
+}
+.homeInvTitle{
+    margin-bottom: 5px;
+}
+.homeInvPrice{
+    margin-bottom: 7px;
+}
+.homeInvText{
+    margin-bottom: 32px;
+}

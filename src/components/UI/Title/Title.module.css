@@ -1,0 +1,10 @@
+.title{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.41px;
+    color: #1A1A1A;
+}
+.titleBolder{
+    font-weight: 600;
+}
