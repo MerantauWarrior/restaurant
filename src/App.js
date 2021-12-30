@@ -8,6 +8,11 @@ import PaymentUnsuccessful from "./pages/PaymentUnsuccessful/PaymentUnsuccessful
 import Reciept from "./pages/Reciept/Reciept";
 import HomeInv from "./pages/Home/HomeInv";
 import SplitBill from "./pages/SplitBill/SplitBill";
+import PayCard from "./pages/PayCard/PayCard";
+import AddPromocode from "./pages/AddPromocode/AddPromocode";
+import PayCustom from "./pages/PayCustom/PayCustom";
+import GetReceipt from "./pages/GetReceipt/GetReceipt";
+import NotFound from "./pages/NotFound/NotFound";
 
 export default function BasicExample() {
   return (
@@ -21,6 +26,11 @@ export default function BasicExample() {
         <Route exact path="/paymentsuccessful" element={<PaymentSuccessful/>}/>
         <Route exact path="/paymentunsuccessful" element={<PaymentUnsuccessful/>}/>
         <Route exact path="/reciept" element={<Reciept/>}/>
+        <Route exact path="/paycard" element={<PayCard/>}/>
+        <Route exact path="/addpromocode" element={<AddPromocode/>}/>
+        <Route exact path="/paycustom" element={<PayCustom/>}/>
+        <Route exact path="/getreceipt" element={<GetReceipt/>}/>
+        <Route exact path="/notfound" element={<NotFound/>}/>
       </Routes>
     </BrowserRouter>
   );

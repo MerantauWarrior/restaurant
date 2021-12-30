@@ -1,0 +1,15 @@
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 195px;
+    background: transparent url('./404.svg') center 23px no-repeat;
+}
+.title{
+    margin-bottom: 12px;
+}
+.text{
+    margin-bottom: 25px;
+}

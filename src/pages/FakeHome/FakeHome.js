@@ -26,6 +26,21 @@ const FakeHome = () => {
         <li>
           <Link to="/reciept">reciept</Link>
         </li>
+        <li>
+          <Link to="/paycard">paycard</Link>
+        </li>
+        <li>
+          <Link to="/addpromocode">addpromocode</Link>
+        </li>
+        <li>
+          <Link to="/paycustom">paycustom</Link>
+        </li>
+        <li>
+          <Link to="/getreceipt">getreceipt</Link>
+        </li>
+        <li>
+          <Link to="/notfound">notfound</Link>
+        </li>
       </ul>
     </div>
   );
