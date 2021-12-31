@@ -1,0 +1,40 @@
+.lang{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+    z-index: 999;
+}
+.current,
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 20px;
+    background-color: #212121;
+}
+.arrowOpened{
+    transform: rotate(180deg);
+}
+.list{}
+.item{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.itemActive{
+    background-color: #313131;
+}
+.flag{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.text{
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: -0.41px;
+}
+.selected{
+    width: 14px;
+}

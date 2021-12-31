@@ -3,6 +3,7 @@ import Wrapper from "../../components/Wrapper/Wrapper";
 import Header from "../../components/Header/Header";
 import Navigation from "../../components/Header/Navigation/Navigation";
 import Main from "../../components/Main/Main";
+import Lang from "../../components/Lang/Lang";
 
 function Menu(props) {
   return (
@@ -13,6 +14,7 @@ function Menu(props) {
       <Main>
         main
       </Main>
+      <Lang/>
     </Wrapper>
   );
 }

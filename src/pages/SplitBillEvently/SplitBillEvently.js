@@ -19,7 +19,12 @@ function SplitBillEvently(props) {
     total: 52.22
   });
   const btnHandler = (counter) => {
-    setNewState((prevState) => ({...prevState, qty: parseInt(prevState.qty + counter)}));
+    const minusBtn = counter === -1;
+    if (minusBtn && state.qty < 2){
+      return false;
+    }else {
+      setNewState((prevState) => ({...prevState, qty: parseInt(prevState.qty + counter)}));
+    }
   }
   return (
     <Wrapper>
