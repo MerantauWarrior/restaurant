@@ -2,6 +2,6 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-    height: 83px;
+    min-height: 83px;
     background: linear-gradient(180deg, #4F4F4F -10.87%, #292929 90.49%);
 }

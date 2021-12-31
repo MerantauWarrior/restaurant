@@ -13,6 +13,10 @@ import AddPromocode from "./pages/AddPromocode/AddPromocode";
 import PayCustom from "./pages/PayCustom/PayCustom";
 import GetReceipt from "./pages/GetReceipt/GetReceipt";
 import NotFound from "./pages/NotFound/NotFound";
+import PayBill from "./pages/PayBill/PayBill";
+import PromocodeAdded from "./pages/PromocodeAdded/PromocodeAdded";
+import SplitBillSummary from "./pages/SplitBillSummary/SplitBillSummary";
+import TipsBill from "./pages/TipsBill/TipsBill";
 
 export default function BasicExample() {
   return (
@@ -31,6 +35,10 @@ export default function BasicExample() {
         <Route exact path="/paycustom" element={<PayCustom/>}/>
         <Route exact path="/getreceipt" element={<GetReceipt/>}/>
         <Route exact path="/notfound" element={<NotFound/>}/>
+        <Route exact path="/paybill" element={<PayBill/>}/>
+        <Route exact path="/promocodeadded" element={<PromocodeAdded/>}/>
+        <Route exact path="/splitbillsummary" element={<SplitBillSummary/>}/>
+        <Route exact path="/tipsbill" element={<TipsBill/>}/>
       </Routes>
     </BrowserRouter>
   );

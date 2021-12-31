@@ -11,8 +11,8 @@ import Button from "../../components/UI/Button/Button";
 import Preloader from "../../components/UI/Preloader/Preloader";
 
 function NotFound(props) {
-  const [spinner, setSpinner] = useState(true);
   // delete on production
+  const [spinner, setSpinner] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => setSpinner(false), 2000);
     return () => clearTimeout(timer);

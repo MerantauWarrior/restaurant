@@ -5,6 +5,10 @@
     letter-spacing: -0.41px;
     color: #1A1A1A;
 }
-.titleBolder{
+.bolder{
     font-weight: 600;
+}
+.small{
+    font-size: 17px;
+    line-height: 23px;
 }

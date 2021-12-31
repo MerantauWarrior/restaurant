@@ -15,3 +15,9 @@ button, input, textarea{
     padding: 0;
     border: none;
 }
+.text-primary{
+    color: #1A1A1A;
+}
+.text-medium{
+    font-weight: 600;
+}

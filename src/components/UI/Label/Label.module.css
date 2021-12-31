@@ -1,0 +1,13 @@
+.label{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    padding: 1px 5px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.41px;
+    color: #1A1A1A;
+    border: 1px solid #1A1A1A;
+    box-sizing: border-box;
+    border-radius: 6px;
+}

@@ -1,4 +1,6 @@
 .text{
+    display: inline-block;
+    vertical-align: middle;
     font-size: 17px;
     line-height: 23px;
     letter-spacing: -0.41px;
