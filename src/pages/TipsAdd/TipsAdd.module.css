@@ -1,0 +1,76 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+.title{
+    margin-top: 13px;
+}
+.variants{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.variant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 79px;
+    height: 70px;
+    border: 1px solid #EBEBEB;
+    border-radius: 16px;
+    background-color: #fff;
+    font-family: SF Pro Display, sans-serif;
+}
+input[type="radio"]{
+    display: none;
+}
+input:checked + .variant{
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 14px -6px rgba(24, 39, 75, 0.12), 0 8px 32px -4px rgba(24, 39, 75, 0.1);
+}
+.percent{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #1A1A1A;
+}
+.amount{
+    margin-top: 2px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7F7E7E;
+}
+.divider{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 17px;
+}
+.dividerLine{
+    flex: 1;
+    border-top: 1px dashed rgba(0, 0, 0, 0.4);
+    opacity: 0.5;
+}
+.dividerText{
+    margin: 0 15px;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: -0.41px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.custom{
+    width: 100%;
+    margin-bottom: 26px;
+    text-align: left;
+}
+.btns{
+    width: 100%;
+    margin-bottom: 20px;
+}

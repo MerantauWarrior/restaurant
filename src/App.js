@@ -17,6 +17,8 @@ import PayBill from "./pages/PayBill/PayBill";
 import PromocodeAdded from "./pages/PromocodeAdded/PromocodeAdded";
 import SplitBillSummary from "./pages/SplitBillSummary/SplitBillSummary";
 import TipsBill from "./pages/TipsBill/TipsBill";
+import TipsAdd from "./pages/TipsAdd/TipsAdd";
+import SplitBillEvently from "./pages/SplitBillEvently/SplitBillEvently";
 
 export default function BasicExample() {
   return (
@@ -39,6 +41,8 @@ export default function BasicExample() {
         <Route exact path="/promocodeadded" element={<PromocodeAdded/>}/>
         <Route exact path="/splitbillsummary" element={<SplitBillSummary/>}/>
         <Route exact path="/tipsbill" element={<TipsBill/>}/>
+        <Route exact path="/tipsadd" element={<TipsAdd/>}/>
+        <Route exact path="/splitevently" element={<SplitBillEvently/>}/>
       </Routes>
     </BrowserRouter>
   );

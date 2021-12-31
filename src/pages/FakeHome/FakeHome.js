@@ -53,6 +53,12 @@ const FakeHome = () => {
         <li>
           <Link to="/tipsbill">tipsbill</Link>
         </li>
+        <li>
+          <Link to="/tipsadd">tipsadd</Link>
+        </li>
+        <li>
+          <Link to="/splitevently">splitevently</Link>
+        </li>
       </ul>
     </div>
   );
