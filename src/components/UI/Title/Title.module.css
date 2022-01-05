@@ -1,12 +1,12 @@
 .title{
-    font-weight: 500;
+    font-family: 'SF Pro Text Medium', sans-serif;
     font-size: 22px;
     line-height: 30px;
     letter-spacing: -0.41px;
     color: #1A1A1A;
 }
 .bolder{
-    font-weight: 600;
+    font-family: 'SF Pro Text Semibold', sans-serif;
 }
 .small{
     font-size: 17px;

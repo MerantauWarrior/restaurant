@@ -1,3 +1,23 @@
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("./fonts/SF-Pro-Text/SF-Pro-Text-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF Pro Text Medium";
+    src: url("./fonts/SF-Pro-Text/SF-Pro-Text-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF Pro Text Semibold";
+    src: url("./fonts/SF-Pro-Text/SF-Pro-Text-Semibold.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("./fonts/SF-Pro-Display/SF-Pro-Display-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF Pro Display Semibold";
+    src: url("./fonts/SF-Pro-Display/SF-Pro-Display-Semibold.otf") format("opentype");
+}
 html, body{
     width: 100%;
     min-height: 100%;
@@ -7,7 +27,7 @@ html, body{
 body{
     font-family: 'SF Pro Text', sans-serif;
 }
-*{
+*, *:after, *:before{
     box-sizing: border-box;
 }
 button, input, textarea{
@@ -19,5 +39,5 @@ button, input, textarea{
     color: #1A1A1A;
 }
 .text-medium{
-    font-weight: 600;
+    font-family: 'SF Pro Text Semibold', sans-serif;
 }

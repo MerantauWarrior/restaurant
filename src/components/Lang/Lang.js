@@ -51,16 +51,16 @@ function Lang(props) {
         <div className={style.current} onClick={() => setIsOpened(!isOpened)}>
           <div className={style.flag}><img src={state.flag} alt={state.lang}/></div>
           <div className={style.text}>{state.lang}</div>
-          <div className={isOpened ? style.arrowOpened : null}><Arrow/></div>
+          <div className={isOpened ? style.arrowOpened : ''}><Arrow/></div>
         </div>
         {isOpened ? <div className={style.list}>
           {langs.map(item => {
-            const isActive = item.lang === state.lang ? style.itemActive : null;
+            const isActive = item.lang === state.lang ? style.itemActive : '';
             return (
               <div className={`${style.item} ${isActive}`} key={item.lang} onClick={() => itemHandler(item)}>
                 <div className={style.flag}><img src={item.flag} alt={item.lang}/></div>
                 <div className={style.text}>{item.lang}</div>
-                <div className={style.selected}>{isActive ? <Selected/> : null}</div>
+                <div className={style.selected}>{isActive ? <Selected/> : ''}</div>
               </div>
             )
           })}
