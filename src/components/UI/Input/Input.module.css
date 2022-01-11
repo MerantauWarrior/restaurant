@@ -47,6 +47,7 @@
     border-radius: 10px;
 }
 .withIcon .input{
+    height: 54px;
     padding-left: 0;
     border: none;
 }
@@ -56,4 +57,7 @@
     justify-content: center;
     width: 46px;
     height: 100%;
+}
+.inpError{
+    border: 1px solid #E02443;
 }
